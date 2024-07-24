@@ -24,17 +24,7 @@
     border: 1px solid #ccc;
     cursor: pointer;
 }
-.agree-checkbox::after {
-    content: "";
-    display: none;
-    width: 8px;
-    height: 14px;
-    border: solid black;
-    border-width: 0 2px 2px 0;
-    transform: rotate(45deg);
-    margin-left: 6px;
-    margin-top: -1px;
-}
+
 .agree-checkbox:checked {
     background-color: #eee;
 }
