@@ -25,7 +25,7 @@
     bottom: 4px;
     font-size: 15px;
 }
-.agree-checkbox {
+#agree-checkbox {
     display: inline-block;
     width: 20px;
     height: 20px;
@@ -33,9 +33,9 @@
     border: 1px solid #ccc;
     cursor: pointer;
 }
-.agree-checkbox:checked {
+#agree-checkbox:checked {
     background-color: #eee;
 }
-.agree-checkbox:checked::after{
+#agree-checkbox:checked::after{
     display: block;
 }
