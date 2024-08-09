@@ -2,40 +2,12 @@
 * {
     font-family: sans-serif;
 }
+body {
+    background: #858181;
+}
 #banner {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: #f9f9f9;
-    padding: 20px;
-    border-bottom: 1px solid #ddd;
-}
-
-#banner h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-#banner p {
-    font-size: 16px;
-    margin-bottom: 20px;
-}
-#banner button {
     position: relative;
-    bottom: 4px;
-    font-size: 15px;
-}
-#agree-checkbox {
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    cursor: pointer;
-}
-#agree-checkbox:checked {
-    background-color: #eee;
-}
-#agree-checkbox:checked::after{
-    display: block;
+    width: 100%;
+    height: 10px;
+    background: #424242;
 }
